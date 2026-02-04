@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Silver House | بيت الفضة</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background-color: #ffffff;
+        color: #222;
+    }
+
+    header {
+        background: linear-gradient(135deg, #0a4da2, #1e90ff);
+        color: white;
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 42px;
+    }
+
+    nav {
+        background-color: white;
+        padding: 15px;
+        text-align: center;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+    nav a {
+        margin: 0 18px;
+        text-decoration: none;
+        color: #0a4da2;
+        font-weight: 600;
+    }
+
+    .section {
+        padding: 70px 20px;
+        text-align: center;
+    }
+
+    .section h2 {
+        color: #0a4da2;
+        font-size: 30px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 25px;
+        max-width: 1100px;
+        margin: 40px auto;
+    }
+
+    .card {
+        background: white;
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+    }
+
+    .card img {
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+    }
+
+    .btn {
+        display: inline-block;
+        margin: 15px 10px;
+        padding: 14px 30px;
+        background: linear-gradient(135deg, #0a4da2, #1e90ff);
+        color: white;
+        text-decoration: none;
+        border-radius: 30px;
+        font-weight: 600;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .btn-insta {
+        background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+    }
+
+    iframe {
+        border-radius: 20px;
+        margin-top: 30px;
+        max-width: 1100px;
+    }
+
+    footer {
+        background: #0a4da2;
+        color: white;
+        padding: 25px;
+        text-align: center;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Silver House | بيت الفضة</h1>
+    <p>Luxury Gold Jewelry • مجوهرات ذهب فاخرة</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Collection</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="section">
+    <h2>Our Collection</h2>
+    <div class="cards">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e">
+            <h3>Gold Rings</h3>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1617038220319-276d3cfab638">
+            <h3>Gold Necklaces</h3>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1621330396173-e41b1cafd17b">
+            <h3>Gold Bangles</h3>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Contact & Social</h2>
+
+    <a class="btn" href="https://wa.me/96892408570" target="_blank">
+        💬 WhatsApp
+    </a>
+
+    <a class="btn btn-insta"
+       href="https://www.instagram.com/silver_house_salalah_oman/"
+       target="_blank">
+        📸 Follow on Instagram
+    </a>
+
+    <p><strong>@silver_house_salalah_oman</strong></p>
+</div>
+
+<div class="section">
+    <h2>Our Location</h2>
+    <p>Oman Salalah Gold Market – Silver House</p>
+
+    <iframe
+        src="https://www.google.com/maps?q=Salalah+Gold+Market+Oman&output=embed"
+        width="100%"
+        height="350"
+        loading="lazy">
+    </iframe>
+
+    <br><br>
+
+    <a class="btn"
+       href="https://www.google.com/maps/dir/?api=1&destination=Salalah+Gold+Market+Oman"
+       target="_blank">
+        📍 Get Directions
+    </a>
+</div>
+
+<footer>
+    <p>© 2026 Silver House | بيت الفضة</p>
+</footer>
+
+</body>
+</html>
